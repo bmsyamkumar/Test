@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="tests" thread-count="5">
+
+	
+  
+	<test verbose="2" name="Default test 2" >
+			<parameter name="platform" value="windows" />
+			<parameter name="browser" value="chrome" />
+			<parameter name="version" value="11" />
+			<parameter name="environment" value="prod" />
+			<parameter name="userRegion" value="US" />
+			<parameter name="seleniumGrid" value="false" />
+			<parameter name="cloudExecution" value="false" />
+			<parameter name="emailReport" value="false" />
+	
+	<groups>
+        <run>
+        	<include name="smoke"/>
+            <include name="regression"/>
+        </run>
+    </groups>
+		<classes>
+		 	<class name="com.web.automation.scripts.CreateJournal"/>
+			<!-- <class name="com.web.automation.scripts.QuoteIDMatrixRecordNotFound"/>		
+			<class name="com.web.automation.scripts.QuoteVedaRecordNotFound"/>
+			<class name="com.web.automation.scripts.QuoteAccept"/>				  
+			<class name="com.web.automation.scripts.QuoteReferHomeBuyer"/>
+			<class name="com.web.automation.scripts.QuoteReferFSA"/>
+			<class name="com.web.automation.scripts.QuoteReferBizCover"/>
+			<class name="com.web.automation.scripts.QuoteThankYou"/> -->
+		</classes>
+	</test> <!-- Default test -->
+	
+	
+  	
+  	
+</suite> <!-- Default suite -->

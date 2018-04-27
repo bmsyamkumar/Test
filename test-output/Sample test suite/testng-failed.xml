@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Sample test suite]" parallel="tests">
+  <parameter name="suiteExecuted" value="Regression"/>
+  <parameter name="executionType" value="Parallel"/>
+  <test name="Default Test(failed)" parallel="tests">
+    <parameter name="seleniumgridurl" value="local"/>
+    <parameter name="environment" value="local"/>
+    <parameter name="appiumUrl" value="http://0.0.0.0:4723/wd/hub"/>
+    <parameter name="browserVersion" value="NA"/>
+    <parameter name="platformVersion" value="6.0.1"/>
+    <parameter name="automationName" value="selenium"/>
+    <parameter name="browserName" value="NA"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="f5e44405"/>
+    <groups>
+      <run>
+        <include name="Android"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mobile.automation.scripts.QantasDemo_ExtentReports">
+        <methods>
+          <include name="Qantas_Demo"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.mobile.automation.scripts.QantasDemo_ExtentReports -->
+    </classes>
+  </test> <!-- Default Test(failed) -->
+</suite> <!-- Failed suite [Sample test suite] -->

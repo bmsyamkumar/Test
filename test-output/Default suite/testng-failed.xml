@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="tests">
+  <test name="PhysicalDevice_Android_Web(failed)" parallel="tests">
+    <parameter name="cloudExecution" value="false"/>
+    <parameter name="environment" value="prod"/>
+    <parameter name="browser" value="android-web"/>
+    <parameter name="userRegion" value="US"/>
+    <parameter name="platformVersion" value="7.0"/>
+    <parameter name="serverURL" value="http://127.0.0.1:4723/wd/hub"/>
+    <parameter name="emailReport" value="false"/>
+    <parameter name="udid" value="9885b64b575a4f534a"/>
+    <parameter name="version" value="11"/>
+    <parameter name="deviceName" value="AndroidLocal"/>
+    <parameter name="platform" value="windows"/>
+    <parameter name="seleniumGrid" value="false"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mobile.automation.scripts.QuoteError_Android">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="QuoteErrorResult_Android" invocation-numbers="27 28 29"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.mobile.automation.scripts.QuoteError_Android -->
+      <class name="com.mobile.automation.scripts.QuoteReferHomeBuyer_Android">
+        <methods>
+          <include name="QuoteReferHomeBuyer_Android" invocation-numbers="27 28 29"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.mobile.automation.scripts.QuoteReferHomeBuyer_Android -->
+    </classes>
+  </test> <!-- PhysicalDevice_Android_Web(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

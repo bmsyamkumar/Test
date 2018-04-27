@@ -1,0 +1,1569 @@
+<html>
+<head>
+<title>TestNG:  PhysicalDevice_Android_Web</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PhysicalDevice_Android_Web</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>234/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 30 11:18:11 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>26129 seconds (26129170 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 35000, Medical Expenses, 5 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td><div><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteErrorResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteError_Android.TestCaseStatus(QuoteError_Android.java:40)
+	at com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android(QuoteError_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1260020957", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1260020957'><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteErrorResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteError_Android.TestCaseStatus(QuoteError_Android.java:40)
+	at com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android(QuoteError_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>2</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5000, Education, 5 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td><div><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteErrorResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteError_Android.TestCaseStatus(QuoteError_Android.java:40)
+	at com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android(QuoteError_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1491875216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1491875216'><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteErrorResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteError_Android.TestCaseStatus(QuoteError_Android.java:40)
+	at com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android(QuoteError_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 35000, Small Business, 5 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Married, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td><div><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteErrorResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteError_Android.TestCaseStatus(QuoteError_Android.java:40)
+	at com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android(QuoteError_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1423653677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1423653677'><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteErrorResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteError_Android.TestCaseStatus(QuoteError_Android.java:40)
+	at com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android(QuoteError_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 35000, Medical Expenses, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td><div><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteReferHomeBuyerResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.TestCaseStatus(QuoteReferHomeBuyer_Android.java:40)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android(QuoteReferHomeBuyer_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace421871498", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace421871498'><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteReferHomeBuyerResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.TestCaseStatus(QuoteReferHomeBuyer_Android.java:40)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android(QuoteReferHomeBuyer_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5000, Education, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Contract , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td><div><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteReferHomeBuyerResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.TestCaseStatus(QuoteReferHomeBuyer_Android.java:40)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android(QuoteReferHomeBuyer_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace861709912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace861709912'><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteReferHomeBuyerResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.TestCaseStatus(QuoteReferHomeBuyer_Android.java:40)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android(QuoteReferHomeBuyer_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 35000, Small Business, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Married, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td><div><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteReferHomeBuyerResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.TestCaseStatus(QuoteReferHomeBuyer_Android.java:40)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android(QuoteReferHomeBuyer_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace482135291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace482135291'><pre>java.lang.AssertionError: Test Case Failed because - Failed to complete QuoteReferHomeBuyerResult
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.TestCaseStatus(QuoteReferHomeBuyer_Android.java:40)
+	at com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android(QuoteReferHomeBuyer_Android.java:100)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5000, Debt Consolidation, 3 Years, Mr, Gold, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5001, New Car, 3 Years, Mr, Gold, Xavier, Accept, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Renting, Full Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 34999, Used Car, 3 Years, Mr, Gold, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 35000, Motor Bike, 3 Years, Mr, Gold, Xavier, Accept, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>114</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5000, Boat, 3 Years, Mr, Gold, Xavier, Accept, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Full Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5001, Home Improvements, 3 Years, Mr, Gold, Xavier, Accept, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>114</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 34999, Home Contents/Furnishings, 3 Years, Mr, Gold, Xavier, Accept, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>106</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 35000, Travel, 3 Years, Mr, Gold, Xavier, Accept, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Own Home Outright - No Mortgage, Part Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>118</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5000, Medical Expenses, 3 Years, Mr, Gold, Xavier, Accept, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>101</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5001, Education, 3 Years, Mr, Gold, Xavier, Accept, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 34999, Small Business, 3 Years, Mr, Gold, Xavier, Accept, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Boarding, Part Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 35000, Tax Bill, 3 Years, Mr, Gold, Xavier, Accept, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5000, Legal Fees and Fines, 3 Years, Mr, Gold, Xavier, Accept, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5001, Rent or Bond, 3 Years, Mr, Gold, Xavier, Accept, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Living With Parents, Casual , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 34999, Share Purchase, 3 Years, Mr, Gold, Xavier, Accept, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 35000, Debts Private, 5 Years, Mr, Gold, Xavier, Accept, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5000, Funeral, 5 Years, Mrs, Gold, Xavier, Accept, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Employer Provides Accommodation, Casual , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5001, Gap Finance, 5 Years, Mrs, Gold, Xavier, Accept, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 34999, Other, 5 Years, Mrs, Gold, Xavier, Accept, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 35000, Debt Consolidation, 5 Years, Mrs, Gold, Xavier, Accept, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5000, New Car, 5 Years, Mrs, Gold, Xavier, Accept, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>101</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5001, Used Car, 5 Years, Mrs, Gold, Xavier, Accept, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 34999, Motor Bike, 5 Years, Mrs, Gold, Xavier, Accept, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 35000, Boat, 5 Years, Mrs, Gold, Xavier, Accept, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5000, Home Improvements, 5 Years, Mrs, Gold, Xavier, Accept, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>106</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5001, Home Contents/Furnishings, 5 Years, Mrs, Gold, Xavier, Accept, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 34999, Travel, 5 Years, Mrs, Gold, Xavier, Accept, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 35000, Medical Expenses, 5 Years, Mrs, Gold, Xavier, Accept, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 5000, Education, 5 Years, Mrs, Gold, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>106</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteAccept_Android.QuoteAccept_Android()'><b>QuoteAccept_Android</b><br>Test class: com.mobile.automation.scripts.QuoteAccept_Android<br>Test method: QuoteAcceptResult<br>Parameters: 35000, Small Business, 5 Years, Mrs, Gold, Xavier, Accept, 30, November, 1980, Married, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteAccept_Android@64485a47</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5000, Debt Consolidation, 3 Years, Mr, Error, Xavier, Smith, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5001, New Car, 3 Years, Mr, Error, Xavier, Smith, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Renting, Full Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 34999, Used Car, 3 Years, Mr, Error, Xavier, Smith, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 35000, Motor Bike, 3 Years, Mr, Error, Xavier, Smith, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5000, Boat, 3 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Full Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5001, Home Improvements, 3 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>106</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 34999, Home Contents/Furnishings, 3 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>107</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 35000, Travel, 3 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Own Home Outright - No Mortgage, Part Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5000, Medical Expenses, 3 Years, Mr, Error, Xavier, Smith, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5001, Education, 3 Years, Mr, Error, Xavier, Smith, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 34999, Small Business, 3 Years, Mr, Error, Xavier, Smith, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Boarding, Part Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 35000, Tax Bill, 3 Years, Mr, Error, Xavier, Smith, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5000, Legal Fees and Fines, 3 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5001, Rent or Bond, 3 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Living With Parents, Casual , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 34999, Share Purchase, 3 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 35000, Debts Private, 5 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>118</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5000, Funeral, 5 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Employer Provides Accommodation, Casual , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>99</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5001, Gap Finance, 5 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>101</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 34999, Other, 5 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>98</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 35000, Debt Consolidation, 5 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>107</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5000, New Car, 5 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5001, Used Car, 5 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>438</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 34999, Motor Bike, 5 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 35000, Boat, 5 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5000, Home Improvements, 5 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 5001, Home Contents/Furnishings, 5 Years, Mrs, Error, Xavier, Smith, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteError_Android.QuoteErrorResult_Android()'><b>QuoteErrorResult_Android</b><br>Test class: com.mobile.automation.scripts.QuoteError_Android<br>Test method: QuoteErrorResult<br>Parameters: 34999, Travel, 5 Years, Mrs, Error, Xavier, Smith, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteError_Android@7e0e6aa2</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5000, Debt Consolidation, 3 Years, Mr, John, Xavier, NoRecord, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>102</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5001, New Car, 3 Years, Mr, John, Xavier, NoRecord, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Renting, Full Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 34999, Used Car, 3 Years, Mr, John, Xavier, NoRecord, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>99</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 35000, Motor Bike, 3 Years, Mr, John, Xavier, NoRecord, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5000, Boat, 3 Years, Mr, John, Xavier, NoRecord, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Full Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5001, Home Improvements, 3 Years, Mr, John, Xavier, NoRecord, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 34999, Home Contents/Furnishings, 3 Years, Mr, John, Xavier, NoRecord, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>102</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 35000, Travel, 3 Years, Mr, John, Xavier, NoRecord, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Own Home Outright - No Mortgage, Part Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5000, Medical Expenses, 3 Years, Mr, John, Xavier, NoRecord, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5001, Education, 3 Years, Mr, John, Xavier, NoRecord, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 34999, Small Business, 3 Years, Mr, John, Xavier, NoRecord, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Boarding, Part Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 35000, Tax Bill, 3 Years, Mr, John, Xavier, NoRecord, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5000, Legal Fees and Fines, 3 Years, Mr, John, Xavier, NoRecord, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5001, Rent or Bond, 3 Years, Mr, John, Xavier, NoRecord, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Living With Parents, Casual , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>116</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 34999, Share Purchase, 3 Years, Mr, John, Xavier, NoRecord, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 35000, Debts Private, 5 Years, Mr, John, Xavier, NoRecord, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5000, Funeral, 5 Years, Mr, John, Xavier, NoRecord, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Employer Provides Accommodation, Casual , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5001, Gap Finance, 5 Years, Mr, John, Xavier, NoRecord, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 34999, Other, 5 Years, Mrs, John, Xavier, NoRecord, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 35000, Debt Consolidation, 5 Years, Mrs, John, Xavier, NoRecord, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5000, New Car, 5 Years, Mrs, John, Xavier, NoRecord, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5001, Used Car, 5 Years, Mrs, John, Xavier, NoRecord, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 34999, Motor Bike, 5 Years, Mrs, John, Xavier, NoRecord, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 35000, Boat, 5 Years, Mrs, John, Xavier, NoRecord, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5000, Home Improvements, 5 Years, Mrs, John, Xavier, NoRecord, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5001, Home Contents/Furnishings, 5 Years, Mrs, John, Xavier, NoRecord, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 34999, Travel, 5 Years, Mrs, John, Xavier, NoRecord, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 35000, Medical Expenses, 5 Years, Mrs, John, Xavier, NoRecord, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 5000, Education, 5 Years, Mrs, John, Xavier, NoRecord, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android.QuoteIDMatrixRecordNotFound_Android()'><b>QuoteIDMatrixRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android<br>Test method: QuoteIDMatrixRecordNotFoundResult<br>Parameters: 35000, Small Business, 5 Years, Mrs, John, Xavier, NoRecord, 30, November, 1980, Married, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteIDMatrixRecordNotFound_Android@782663d3</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5000, Debt Consolidation, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5001, New Car, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Renting, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>102</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 34999, Used Car, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 35000, Motor Bike, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5000, Boat, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>106</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5001, Home Improvements, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 34999, Home Contents/Furnishings, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 35000, Travel, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Own Home Outright - No Mortgage, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5000, Medical Expenses, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>97</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5001, Education, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 34999, Small Business, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Boarding, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 35000, Tax Bill, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5000, Legal Fees and Fines, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5001, Rent or Bond, 3 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Living With Parents, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 34999, Share Purchase, 3 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>106</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 35000, Debts Private, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5000, Funeral, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Employer Provides Accommodation, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5001, Gap Finance, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 34999, Other, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>98</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 35000, Debt Consolidation, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5000, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5001, Used Car, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 34999, Motor Bike, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 35000, Boat, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5000, Home Improvements, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5001, Home Contents/Furnishings, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 34999, Travel, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 35000, Medical Expenses, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 5000, Education, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferBizCover_Android.QuoteReferBizCover_Android()'><b>QuoteReferBizCover_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferBizCover_Android<br>Test method: QuoteReferBizCoverResult<br>Parameters: 35000, Small Business, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Married, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteReferBizCover_Android@7276c8cd</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5000, New Car, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5001, Used Car, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Married , 2, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Renting, Full Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 34999, Motor Bike, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 1980, Married , 3, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>97</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 35000, Home Improvements, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Married , 4, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5000, Home Contents/Furnishings, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 1980, Single, 5, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Full Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>100</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5001, Travel, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 34999, Boat, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 1980, Single, 2, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 35000, Debt Consolidation, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Single, 3, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Own Home Outright - No Mortgage, Part Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 34999, Debt Consolidation, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 1980, De Facto , 4, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>106</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 35001, Debt Consolidation, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, De Facto , 5, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 34999, Other, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Boarding, Part Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 35000, Other, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, De Facto , 2, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5000, Other, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 1980, Separated , 3, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5001, Other, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Separated , 4, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Living With Parents, Casual , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 34999, New Car, 3 Years, Mrs, LowScore, Xavier, Accept, 1, January, 1980, Separated , 5, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 35000, Used Car, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5000, Motor Bike, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 1980, Divorced , 2, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Employer Provides Accommodation, Casual , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>106</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5001, Boat, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Divorced , 3, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 34999, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 1980, Divorced , 4, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 35000, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Divorced , 5, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5000, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>116</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5001, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Widowed , 2, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 34999, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 1980, Widowed , 3, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 35000, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Widowed , 4, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5000, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 1980, Other , 5, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5001, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 34999, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 1980, Other , 2, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 35000, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Other , 3, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 5000, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 1980, Married , 4, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferFSA_Android.QuoteReferFSA_Android()'><b>QuoteReferFSA_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferFSA_Android<br>Test method: QuoteReferFSAResult<br>Parameters: 35000, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Married, 5, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>114</td>
+<td>com.mobile.automation.scripts.QuoteReferFSA_Android@6ec8211c</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5000, Debt Consolidation, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Full Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5001, New Car, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 34999, Used Car, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Full Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>106</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 35000, Motor Bike, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>107</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5000, Boat, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Full Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>102</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5001, Home Improvements, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>115</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 34999, Home Contents/Furnishings, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Part Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 35000, Travel, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Part Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5000, Medical Expenses, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Part Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>107</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5001, Education, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Part Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 34999, Small Business, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Part Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>107</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 35000, Tax Bill, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Part Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5000, Legal Fees and Fines, 3 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Casual , 3, 0, 35000, 2303, Weekly, 290, Weekly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>107</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5001, Rent or Bond, 3 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Casual , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 34999, Share Purchase, 3 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Casual , 3, 0, 100000, 2303, Yearly, 290, Yearly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 35000, Debts Private, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Casual , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5000, Funeral, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Casual , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>107</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5001, Gap Finance, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Casual , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 34999, Other, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>107</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 35000, Debt Consolidation, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>114</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5000, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>107</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5001, Used Car, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 34999, Motor Bike, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>100</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 35000, Boat, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5000, Home Improvements, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Contract , 3, 0, 35000, 2303, Weekly, 290, Weekly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 5001, Home Contents/Furnishings, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteReferHomeBuyer_Android.QuoteReferHomeBuyer_Android()'><b>QuoteReferHomeBuyer_Android</b><br>Test class: com.mobile.automation.scripts.QuoteReferHomeBuyer_Android<br>Test method: QuoteReferHomeBuyerResult<br>Parameters: 34999, Travel, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Contract , 3, 0, 100000, 2303, Yearly, 290, Yearly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>99</td>
+<td>com.mobile.automation.scripts.QuoteReferHomeBuyer_Android@25bbf683</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5000, Debt Consolidation, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5001, New Car, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Renting, Full Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>106</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 34999, Used Car, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>102</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 35000, Motor Bike, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5000, Boat, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Full Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5001, Home Improvements, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 34999, Home Contents/Furnishings, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 35000, Travel, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Own Home Outright - No Mortgage, Part Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5000, Medical Expenses, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5001, Education, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 34999, Small Business, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Boarding, Part Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 35000, Tax Bill, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5000, Legal Fees and Fines, 3 Years, Mr, LowScore, Xavier, Accept, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5001, Rent or Bond, 3 Years, Mr, LowScore, Xavier, Accept, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Living With Parents, Casual , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 34999, Share Purchase, 3 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 35000, Debts Private, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5000, Funeral, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Employer Provides Accommodation, Casual , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5001, Gap Finance, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 34999, Other, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 35000, Debt Consolidation, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5000, New Car, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5001, Used Car, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 34999, Motor Bike, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 35000, Boat, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5000, Home Improvements, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5001, Home Contents/Furnishings, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 34999, Travel, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 35000, Medical Expenses, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 5000, Education, 5 Years, Mrs, LowScore, Xavier, Accept, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteThankYou_Android.QuoteThankYou_Android()'><b>QuoteThankYou_Android</b><br>Test class: com.mobile.automation.scripts.QuoteThankYou_Android<br>Test method: QuoteThankYouResult<br>Parameters: 35000, Small Business, 5 Years, Mrs, LowScore, Xavier, Accept, 30, November, 1980, Married, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteThankYou_Android@544a2ea6</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5000, Debt Consolidation, 3 Years, Mr, NoRecord, Xavier, Smith, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5001, New Car, 3 Years, Mr, NoRecord, Xavier, Smith, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Renting, Full Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 34999, Used Car, 3 Years, Mr, NoRecord, Xavier, Smith, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Full Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 35000, Motor Bike, 3 Years, Mr, NoRecord, Xavier, Smith, 30, November, 1980, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5000, Boat, 3 Years, Mr, NoRecord, Xavier, Smith, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Mortgage, Full Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, 400000, 100000, No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>102</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5001, Home Improvements, 3 Years, Mr, NoRecord, Xavier, Smith, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Full Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>110</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 34999, Home Contents/Furnishings, 3 Years, Mr, NoRecord, Xavier, Smith, 1, January, 2000, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 35000, Travel, 3 Years, Mr, NoRecord, Xavier, Smith, 30, November, 1980, Single, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Own Home Outright - No Mortgage, Part Time , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5000, Medical Expenses, 3 Years, Mr, NoRecord, Xavier, Smith, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Own Home Outright - No Mortgage, Part Time , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5001, Education, 3 Years, Mr, NoRecord, Xavier, Smith, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 34999, Small Business, 3 Years, Mr, NoRecord, Xavier, Smith, 1, January, 2000, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Boarding, Part Time , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 35000, Tax Bill, 3 Years, Mr, NoRecord, Xavier, Smith, 30, November, 1980, De Facto , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Boarding, Part Time , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5000, Legal Fees and Fines, 3 Years, Mr, NoRecord, Xavier, Smith, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5001, Rent or Bond, 3 Years, Mr, NoRecord, Xavier, Smith, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Living With Parents, Casual , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 34999, Share Purchase, 3 Years, Mrs, NoRecord, Xavier, Smith, 1, January, 2000, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Living With Parents, Casual , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 35000, Debts Private, 5 Years, Mrs, NoRecord, Xavier, Smith, 30, November, 1980, Separated , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5000, Funeral, 5 Years, Mrs, NoRecord, Xavier, Smith, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Employer Provides Accommodation, Casual , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5001, Gap Finance, 5 Years, Mrs, NoRecord, Xavier, Smith, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Employer Provides Accommodation, Casual , 5, 0, 100000, 2500, Yearly, 500, Yearly, , , Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 34999, Other, 5 Years, Mrs, NoRecord, Xavier, Smith, 1, January, 2000, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 35000, Debt Consolidation, 5 Years, Mrs, NoRecord, Xavier, Smith, 30, November, 1980, Divorced , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35001, 2500, Monthly, 500, Monthly, , , Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>108</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5000, New Car, 5 Years, Mrs, NoRecord, Xavier, Smith, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Other, Self Employed , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>105</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5001, Used Car, 5 Years, Mrs, NoRecord, Xavier, Smith, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Other, Self Employed , 5, 0, 35000, 2500, Weekly, 500, Weekly, , , Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>109</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 34999, Motor Bike, 5 Years, Mrs, NoRecord, Xavier, Smith, 1, January, 2000, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Self Employed , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 35000, Boat, 5 Years, Mrs, NoRecord, Xavier, Smith, 30, November, 1980, Widowed , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Self Employed , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5000, Home Improvements, 5 Years, Mrs, NoRecord, Xavier, Smith, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35000, 2303, Weekly, 290, Weekly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>107</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5001, Home Contents/Furnishings, 5 Years, Mrs, NoRecord, Xavier, Smith, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35001, 2500, Monthly, 500, Monthly, 400000, 100000, Yes, 5000, Weekly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>112</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 34999, Travel, 5 Years, Mrs, NoRecord, Xavier, Smith, 1, January, 2000, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 100000, 2303, Yearly, 290, Yearly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>104</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 35000, Medical Expenses, 5 Years, Mrs, NoRecord, Xavier, Smith, 30, November, 1980, Other , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 35000, 2500, Weekly, 500, Weekly, 400000, 100000, Yes, 5000, Monthly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>113</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 5000, Education, 5 Years, Mrs, NoRecord, Xavier, Smith, 1, January, 2000, Married , 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 3, 0, Renting, Contract , 3, 0, 35001, 2303, Monthly, 290, Monthly, , , No, , , No, , , Yes, Yes, Yes</td>
+<td></td>
+<td>103</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+<tr>
+<td title='com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android.QuoteVedaRecordNotFound_Android()'><b>QuoteVedaRecordNotFound_Android</b><br>Test class: com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android<br>Test method: QuoteVedaRecordNotFoundResult<br>Parameters: 35000, Small Business, 5 Years, Mrs, NoRecord, Xavier, Smith, 30, November, 1980, Married, 1, test@directmoney.com.au, 0400000000, 12341234, 1 Martin Pl, Sydney, NSW, 2000, 5, 4, Mortgage, Contract , 5, 0, 100000, 2500, Yearly, 500, Yearly, 400000, 100000, Yes, 5000, Yearly, Yes, 1, 5000, Yes, Yes, Yes</td>
+<td></td>
+<td>111</td>
+<td>com.mobile.automation.scripts.QuoteVedaRecordNotFound_Android@1990a65e</td></tr>
+</table><p>
+</body>
+</html>
